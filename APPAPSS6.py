@@ -60,7 +60,7 @@ if login():
     ]
 
     try:
-        model = load_model('C:/Users/LENOVO/Desktop/my_model3boiler classification .keras')
+        model = load_model('https://github.com/fer1cas/Boiler-Analyser/blob/main/.gitattributes')
         st.success("Model loaded successfully!")
     except Exception as e:
         st.error(f"Error loading model: {e}")
@@ -123,3 +123,4 @@ if login():
 
         except Exception as e:
             st.error(f"Error processing uploaded file: {e}")
+
